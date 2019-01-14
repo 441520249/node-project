@@ -4,7 +4,7 @@ $(() => {
         return new Promise((resolve, reject) => {
             $.ajax({
                 type: "get",
-                url: "http://localhost:3000/setting/update",
+                url: "http://120.79.48.23:3000/setting/update",
                 data: {
                     name,
                     age,

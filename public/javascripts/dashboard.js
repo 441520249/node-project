@@ -3,7 +3,7 @@ $(() => {
         return new Promise((resolve, reject) => {
             $.ajax({
                 type: "get",
-                url: "http://localhost:3000/setting/findUser",
+                url: "http://120.79.48.23:3000/setting/findUser",
                 success(data) {
                     resolve(data)
                 }

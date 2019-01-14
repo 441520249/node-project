@@ -4,7 +4,7 @@ $(() => {
         return new Promise((resolve, reject) => {
             $.ajax({
                 type: "get",
-                url: "http://localhost:3000/api/zeng",
+                url: "http://120.79.48.23:3000/api/zeng",
                 data: {
                     inputEmail,
                     inputPassword
@@ -61,7 +61,7 @@ $(() => {
         return new Promise((resolve, reject) => {
             $.ajax({
                 type: "post",
-                url: "http://localhost:3000/api/findUser",
+                url: "http://120.79.48.23:3000/api/findUser",
                 data: {
                     inputEmail,
                     inputPassword
@@ -94,7 +94,7 @@ $(() => {
     console.log(value)
     $.ajax({
         type: "post",
-        url: "http://localhost:3000/api/text",
+        url: "http://120.79.48.23:3000/api/text",
         data: {
             value
         },
